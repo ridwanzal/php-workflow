@@ -14,5 +14,4 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           user: ${{ secrets.SSH_USER }}
           pass: ${{ secrets.SSH_PASSWORD }}
-          port: 11103
           command: cd /var/www/html && git pull origin
