@@ -1,0 +1,19 @@
+{
+  "name": "php-workflow-example",
+  "version": "1.0.0",
+  "description": "sample workflow implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridwanzal/php-workflow.git"
+  },
+  "author": "M. Ridwan Zalbina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridwanzal/php-workflow/issues"
+  },
+  "homepage": "https://github.com/ridwanzal/php-workflow#readme"
+}
