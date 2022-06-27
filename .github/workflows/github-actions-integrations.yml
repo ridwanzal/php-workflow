@@ -14,5 +14,5 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           user: ${{ secrets.SSH_USER }}
           pass: ${{ secrets.SSH_PASSWORD }}
-          command: cd /var/www/html/php-workflows/ && git pull origin
+          command: cd /var/www/html/php-workflow/ && git pull origin
           args: "-tt -vvv"
