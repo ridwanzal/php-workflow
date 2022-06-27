@@ -13,5 +13,5 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           user: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PASSWORD }}
+          pass: ${{ secrets.SSH_PASSWORD }}
           command: cd /var/www/html && git pull origin
