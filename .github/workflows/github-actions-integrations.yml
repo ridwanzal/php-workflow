@@ -2,7 +2,7 @@ name: Deploy Prod Demo
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     name: Deployment Demo
